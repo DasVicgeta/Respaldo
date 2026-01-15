@@ -1,0 +1,31 @@
+# Configuración de Grupos para NexusMC
+# Basado en el esquema de colores Verde (#23FF4B) y Gris
+
+Owner:
+  tabprefix: "<#23FF4B>ᴏᴡɴᴇʀ</#23FF4B> &f"
+  tagprefix: "<#23FF4B>ᴏᴡɴᴇʀ</#23FF4B> &f"
+  customtabname: "<#23FF4B>%player%</#23FF4B>"
+
+Admin:
+  tabprefix: "&4ᴀᴅᴍɪɴ &f"
+  tagprefix: "&4ᴀᴅᴍɪɴ &f"
+  customtabname: "&4%player%"
+
+Player:
+  tabprefix: "&7ᴘʟᴀʏᴇʀ &3"
+  tagprefix: "&7ᴘʟᴀʏᴇʀ &3"
+  customtabname: "&7%player%"
+
+# Sección por defecto: Utiliza los prefijos de tu plugin de permisos (como LuckPerms)
+_DEFAULT_:
+  tabprefix: "%luckperms-prefix%"
+  tagprefix: "%luckperms-prefix%"
+  customtabname: "%player%"
+  tabsuffix: "%luckperms-suffix%"
+  tagsuffix: "%luckperms-suffix%"
+
+# Configuración específica por mundo (opcional)
+per-world:
+  world_nether:
+    Owner:
+      tabprefix: "&cɴᴇᴛʜᴇʀ &f<#23FF4B>ᴏᴡɴᴇʀ</#23FF4B> "

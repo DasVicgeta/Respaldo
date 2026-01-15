@@ -1,0 +1,12 @@
+&8&m--------------------------------------------------
+      &aɴᴇхᴜѕᴍᴄ &f- &7ѕᴜʀᴠɪᴠᴀʟ ᴇɴᴛʀᴇ ᴀᴍɪɢᴏѕ
+&8&m--------------------------------------------------
+  &7¡Hola &a{PLAYER}&7! Bienvenido al servidor.
+  &fJugadores online: &a{ONLINE}
+  &fHora del mundo: &e{WORLDTIME12}
+  
+  &7Usa &a/help Reglas &7para no terminar baneado.
+  &7Usa &a/help Comandos &7para ver qué puedes hacer.
+&8&m--------------------------------------------------
+   &7Recuerda: ¡No quemes la casa de nadie hoy!
+&8&m--------------------------------------------------

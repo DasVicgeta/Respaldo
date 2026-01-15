@@ -1,0 +1,104 @@
+header-footer:
+  enabled: true
+  designs:
+    default:
+      display-condition: '%world%!=disabledworld'
+      header:
+      - ' '
+      - <#23FF4B>ɴᴇхᴜѕᴍᴄ</#23FF4B>
+      - '&7ᴘɪɴɢ: &f%player_ping%ms &7| ᴛᴘѕ: &f%server_tps_1%'
+      - ' '
+      footer:
+      - ' '
+      - '%animation:tabAbove%'
+      - ''
+      - '%animation:tabLine1%'
+      - '%animation:tabLine2%'
+      - ' '
+      - '%animation:tabBelow%'
+tablist-name-formatting:
+  enabled: true
+scoreboard-teams:
+  enabled: true
+  enable-collision: true
+  invisible-nametags: false
+  sorting-types:
+  - GROUPS:owner,admin,mod,helper,default
+  - PLACEHOLDER_A_TO_Z:%player%
+playerlist-objective:
+  enabled: true
+  value: '%player_health_rounded%'
+  fancy-value: '&c❤'
+  title: TAB
+  render-type: HEARTS
+belowname-objective:
+  enabled: true
+  fancy-value-default: NPC
+  fancy-value: '&c%health%'
+  value: '%player_health_rounded%'
+  title: '&c❤'
+scoreboard:
+  enabled: true
+  toggle-command: /sb
+  scoreboards:
+    scoreboard:
+      title: <#23FF4B>ɴᴇхᴜѕᴍᴄ</#23FF4B>
+      lines:
+      - '&7⌚ %server_time_kk:mm%'
+      - ''
+      - <#23FF4B>ᴘʟᴀʏᴇʀ</#23FF4B>
+      - ' <#23FF4B>|</#23FF4B> &fɴɪᴠᴇʟ: &e%player_level%'
+      - ' <#23FF4B>|</#23FF4B> &fᴍᴜᴇʀᴛᴇѕ: &4%statistic_deaths%'
+      - ' <#23FF4B>|</#23FF4B> &fѕᴀʟᴜᴅ: &c%player_health_rounded%❤'
+      - ''
+      - <#23FF4B>ᴍᴜɴᴅᴏ</#23FF4B>
+      - ' <#23FF4B>|</#23FF4B> &fᴘᴏѕ: &7%player_x%, %player_y%, %player_z%'
+      - ' <#23FF4B>|</#23FF4B> &fᴅɪᴀ: &6%statistic_days_played%'
+      - ''
+      - <#23FF4B>ѕᴇʀᴠᴇʀ</#23FF4B>
+      - ' <#23FF4B>|</#23FF4B> &fᴏɴʟɪɴᴇ: &a%server_online%'
+      - ' '
+      - '&7ɴᴇхᴜѕ.ᴍᴄ.ѕᴜʀᴠɪᴠᴀʟ'
+prevent-spectator-effect:
+  enabled: false
+debug: false
+use-online-uuid-in-tablist: true
+permission-refresh-interval: 1000
+proxy-support:
+  enabled: true
+  type: PLUGIN
+  plugin:
+    name: RedisBungee
+compensate-for-packetevents-bug: false
+assign-groups-by-permissions: false
+primary-group-finding-list:
+- Owner
+- Admin
+- Helper
+- default
+placeholders:
+  register-tab-expansion: false
+global-playerlist:
+  update-latency: false
+  enabled: false
+placeholder-refresh-intervals:
+  default-refresh-interval: 500
+  '%player_health%': 200
+  '%player_x%': 500
+  '%player_y%': 500
+  '%player_z%': 500
+  '%statistic_deaths%': 1000
+config-version: 2
+components:
+  minimessage-support: true
+  disable-shadow-for-heads: true
+bossbar:
+  enabled: false
+layout:
+  enabled: false
+mysql:
+  enabled: false
+per-world-playerlist:
+  enabled: false
+ping-spoof:
+  enabled: false

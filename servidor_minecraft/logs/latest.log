@@ -1,0 +1,771 @@
+[15:53:29] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.1+8-LTS; Microsoft Microsoft-12574222) on Linux 6.8.0-1030-azure (amd64)
+[15:53:29] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-92-main@e7445e1 (2026-01-11T23:38:04Z) for Minecraft 1.21.11
+[15:53:30] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[15:53:32] [ServerMain/INFO]: [PluginInitializerManager] Initialized 13 plugins
+[15:53:32] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (13):
+ - Chunky (1.4.40), Essentials (2.21.2), Geyser-Spigot (2.9.2-SNAPSHOT), LagFixer (1.5.1.9 [build 140]), LuckPerms (5.5.24), PlaceholderAPI (2.11.7), SkinsRestorer (15.9.3), TAB (5.4.0), ViaBackwards (5.7.0), ViaRewind (4.0.13), ViaVersion (5.7.0), nAntiBot (2.0.4), nLogin (2.0.9)
+[15:53:41] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[15:53:45] [ServerMain/INFO]: Loaded 1470 recipes
+[15:53:45] [ServerMain/INFO]: Loaded 1584 advancements
+[15:53:45] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[15:53:46] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 942.8ms
+[15:53:46] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[15:53:46] [Server thread/INFO]: Loading properties
+[15:53:46] [Server thread/INFO]: This server is running Paper version 1.21.11-92-main@e7445e1 (2026-01-11T23:38:04Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
+[15:53:46] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[15:53:47] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:53:47] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:53:48] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[15:53:49] [Server thread/INFO]: Default game type: SURVIVAL
+[15:53:49] [Server thread/INFO]: Generating keypair
+[15:53:49] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:53:49] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[15:53:49] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[15:53:51] [Server thread/INFO]: [SpigotLibraryLoader] [LagFixer] Loading 1 libraries... please wait
+[15:53:51] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/net/java/dev/jna/jna/5.18.1/jna-5.18.1.pom
+[15:53:51] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/net/java/dev/jna/jna-platform/5.18.1/jna-platform-5.18.1.pom
+[15:53:52] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/net/java/dev/jna/jna/5.18.1/jna-5.18.1.jar
+[15:53:52] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-0-0/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/net/java/dev/jna/jna-platform/5.18.1/jna-platform-5.18.1.jar
+[15:53:52] [Server thread/INFO]: [SpigotLibraryLoader] [LagFixer] Loaded library /workspaces/Respaldo/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.9.1/oshi-core-6.9.1.jar
+[15:53:52] [Server thread/INFO]: [SpigotLibraryLoader] [LagFixer] Loaded library /workspaces/Respaldo/servidor_minecraft/libraries/net/java/dev/jna/jna/5.18.1/jna-5.18.1.jar
+[15:53:52] [Server thread/INFO]: [SpigotLibraryLoader] [LagFixer] Loaded library /workspaces/Respaldo/servidor_minecraft/libraries/net/java/dev/jna/jna-platform/5.18.1/jna-platform-5.18.1.jar
+[15:53:52] [Server thread/INFO]: [SpigotLibraryLoader] [LagFixer] Loaded library /workspaces/Respaldo/servidor_minecraft/libraries/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar
+[15:53:52] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.7.0
+[15:53:52] [Server thread/INFO]: [ViaVersion] ViaVersion 5.7.0 is now loaded. Registering protocol transformers and injecting...
+[15:53:54] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading block connection mappings ...
+[15:53:54] [Via-Mappingloader-1/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[15:53:55] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[15:53:55] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[15:53:56] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[15:53:56] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.7.0
+[15:53:56] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.7
+[15:53:56] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.24
+[15:53:57] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[15:53:57] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.13
+[15:53:57] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.9.3
+[15:53:57] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.40
+[15:53:57] [Server thread/INFO]: [nLogin] Loading server plugin nLogin v2.0.9
+[15:53:57] [Server thread/INFO]: [nLogin] Removing unused dependencies (7)
+[15:53:58] [Server thread/INFO]: [nAntiBot] Loading server plugin nAntiBot v2.0.4
+[15:53:58] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.9.2-SNAPSHOT
+[15:53:59] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[15:53:59] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[15:53:59] [Server thread/INFO]: [[38;5;11m⚡[0m] Loading server plugin LagFixer v1.5.1.9 [build 140]
+[15:53:59] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.2
+[15:53:59] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.4.0
+[15:53:59] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:53:59] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.24
+[15:54:00] [Server thread/INFO]:         __    
+[15:54:00] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.24
+[15:54:00] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[15:54:00] [Server thread/INFO]: 
+[15:54:00] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[15:54:01] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[15:54:01] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[15:54:01] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1945ms)
+[15:54:01] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.13
+[15:54:01] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.9.3
+[15:54:03] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.11.
+[15:54:04] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[15:54:04] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.9.3]
+[15:54:04] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
+[15:54:04] [Server thread/INFO]: [nLogin] Enabling nLogin v2.0.9
+[15:54:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[15:54:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[15:54:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[15:54:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[15:54:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[15:54:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[15:54:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[15:54:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.9.3
+[15:54:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 989bf18
+[15:54:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[15:54:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[15:54:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[15:54:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[15:54:05] [Server thread/INFO]: [nLogin] Successful plugin core start (took 0.51s)
+[15:54:05] [Server thread/INFO]: [nLogin]           __             _       
+[15:54:05] [Server thread/INFO]: [nLogin]   _ __   / /  ___   __ _(_)_ __  
+[15:54:05] [Server thread/INFO]: [nLogin]  | '_ \ / /  / _ \ / _` | | '_ \ 
+[15:54:05] [Server thread/INFO]: [nLogin]  | | | / /__| (_) | (_| | | | | |
+[15:54:05] [Server thread/INFO]: [nLogin]  |_| |_\____/\___/ \__, |_|_| |_|
+[15:54:05] [Server thread/INFO]: [nLogin]                   |___/            
+[15:54:05] [Server thread/INFO]: [nLogin]  By: www.nickuc.com - V 2.0.9
+[15:54:05] [Server thread/INFO]: [nLogin]  
+[15:54:13] [Server thread/INFO]: [nAntiBot] Enabling nAntiBot v2.0.4
+[15:54:14] [Server thread/INFO]: [nAntiBot] Successful plugin core start (took 0.27s)
+[15:54:14] [Server thread/INFO]: [nAntiBot]           _         _   _   ___       _   
+[15:54:14] [Server thread/INFO]: [nAntiBot]   _ __   /_\  _ __ | |_(_) / __\ ___ | |_ 
+[15:54:14] [Server thread/INFO]: [nAntiBot]  | '_ \ //_\\| '_ \| __| |/__\/// _ \| __|
+[15:54:14] [Server thread/INFO]: [nAntiBot]  | | | /  _  \ | | | |_| / \/  \ (_) | |_ 
+[15:54:14] [Server thread/INFO]: [nAntiBot]  |_| |_\_/ \_/_| |_|\__|_\_____/\___/ \__|
+[15:54:14] [Server thread/INFO]: [nAntiBot]                                          
+[15:54:14] [Server thread/INFO]: [nAntiBot]  By: www.nickuc.com - V 2.0.4
+[15:54:14] [Server thread/INFO]: [nAntiBot] 
+[15:54:15] [Folia Async Scheduler Thread #2/INFO]: [nAntiBot] Connecting to the remote server antibot.nickuc.com...
+[15:54:15] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15:54:15] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[15:54:15] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[15:54:15] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[15:54:15] [Server thread/INFO]: Preparing level "world"
+[15:54:15] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] NUMA enable flag is not set; however there is NUMA interaction support for this OS.
+[15:54:15] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] Detected 1 NUMA nodes.
+[15:54:16] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
+[15:54:16] [Server thread/INFO]: Preparing spawn area: 100%
+[15:54:16] [Server thread/INFO]: Prepared spawn area in 15 ms
+[15:54:16] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[15:54:16] [Server thread/INFO]: Preparing spawn area: 100%
+[15:54:16] [Server thread/INFO]: Prepared spawn area in 4 ms
+[15:54:16] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[15:54:16] [Server thread/INFO]: Preparing spawn area: 100%
+[15:54:16] [Server thread/INFO]: Prepared spawn area in 2 ms
+[15:54:16] [Server thread/INFO]: Done preparing level "world" (1.250s)
+[15:54:16] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.7.0
+[15:54:16] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.11 (774)
+[15:54:16] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.7.0
+[15:54:16] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.7
+[15:54:17] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[15:54:17] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.40
+[15:54:17] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.9.2-SNAPSHOT
+[15:54:19] [Server thread/INFO]: [[38;5;11m⚡[0m] Enabling LagFixer v1.5.1.9 [build 140]
+[15:54:19] [Server thread/INFO]: [[38;5;11m⚡[0m] Remember to leave a rating! ★ ★ ★ ★ ★
+
+
+
+
+
+LagFixer 1.5.1.9 [build 140] - Best Performance Solution!
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+░██╗░░░░░░█████╗░░██████╗░░░███████╗██╗██╗░░██╗███████╗██████╗░░
+░██║░░░░░██╔══██╗██╔════╝░░░██╔════╝██║╚██╗██╔╝██╔════╝██╔══██╗░
+░██║░░░░░███████║██║░░██╗░░░█████╗░░██║░╚███╔╝░█████╗░░██████╔╝░
+░██║░░░░░██╔══██║██║░░╚██╗░░██╔══╝░░██║░██╔██╗░██╔══╝░░██╔══██╗░
+░███████╗██║░░██║╚██████╔╝░░██║░░░░░██║██╔╝╚██╗███████╗██║░░██║░
+░╚══════╝╚═╝░░╚═╝░╚═════╝░░░╚═╝░░░░░╚═╝╚═╝░░╚═╝╚══════╝╚═╝░░╚═╝░
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+
+
+
+
+
+[15:54:19] [Server thread/INFO]: [[38;5;11m⚡[0m] (ErrorsManager) -> Enabling manager...
+[15:54:19] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Started listening console for LagFixer errors!
+[15:54:19] [Server thread/INFO]: [[38;5;11m⚡[0m] (ErrorsManager) -> Enabled manager in 5ms!
+[15:54:19] [Server thread/INFO]: [[38;5;11m⚡[0m] (ConfigManager) -> Enabling manager...
+[15:54:19] [Server thread/INFO]: [[38;5;11m⚡[0m] (ConfigManager) -> Enabled manager in 93ms!
+[15:54:20] [Server thread/INFO]: [[38;5;11m⚡[0m] (SupportManager) -> Enabling manager...
+[15:54:20] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Loaded fork support ~ xyz.lychee.lagfixer.support.PaperSupport
+[15:54:20] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Loaded nms support ~ xyz.lychee.lagfixer.nms.v1_21_R7.SupportNms
+[15:54:20] [Server thread/INFO]: [[38;5;11m⚡[0m] (SupportManager) -> Enabled manager in 9ms!
+[15:54:20] [Server thread/INFO]: [[38;5;11m⚡[0m] (HookManager) -> Enabling manager...
+[15:54:20] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: lagfixer [1.5.1.9 [build 140]]
+[15:54:20] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded hook PlaceholderAPI in 1ms!
+[15:54:20] [Server thread/INFO]: [[38;5;11m⚡[0m] (HookManager) -> Enabled manager in 1ms!
+[15:54:20] [Server thread/INFO]: [[38;5;11m⚡[0m] (MetricsManager) -> Enabling manager...
+[15:54:20] [Server thread/INFO]: [[38;5;11m⚡[0m] (MetricsManager) -> Enabled manager in 9ms!
+[15:54:20] [Server thread/INFO]: [[38;5;11m⚡[0m] (UpdaterManager) -> Enabling manager...
+[15:54:20] [Server thread/INFO]: [[38;5;11m⚡[0m] (UpdaterManager) -> Enabled manager in 4ms!
+[15:54:20] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[15:54:20] [Server thread/INFO]: [[38;5;11m⚡[0m] (ModuleManager) -> Enabling manager...
+[15:54:20] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module RedstoneLimiter in 13ms.
+[15:54:20] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module InstantLeafDecay in 6ms.
+[15:54:20] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module WorldCleaner in 34ms.
+[15:54:20] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module LagShield in 23ms.
+[15:54:20] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module ExplosionOptimizer in 11ms.
+[15:54:20] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module MobAiReducer in 43ms.
+[15:54:20] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module EntityLimiter in 11ms.
+[15:54:20] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module AbilityLimiter in 7ms.
+[15:54:20] [Server thread/INFO]: [[38;5;11m⚡[0m] (ModuleManager) -> Enabled manager in 332ms!
+[15:54:20] [Server thread/INFO]: [[38;5;11m⚡[0m] (CommandManager) -> Enabling manager...
+[15:54:21] [Server thread/INFO]: [[38;5;11m⚡[0m] (CommandManager) -> Enabled manager in 57ms!
+[15:54:21] [Server thread/INFO]: [[38;5;11m⚡[0m] Remember to leave a rating! ★ ★ ★ ★ ★
+[15:54:21] [Server thread/INFO]: [[38;5;11m⚡[0m] ❤ Support us https://ko-fi.com/lajczik
+[15:54:21] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.2
+[15:54:21] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[15:54:21] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[15:54:21] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[15:54:22] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[15:54:22] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[15:54:22] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[15:54:22] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[15:54:22] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[15:54:22] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[15:54:22] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[15:54:22] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[15:54:22] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[15:54:22] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+[15:54:22] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[15:54:22] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[15:54:22] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[15:54:22] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[15:54:22] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[15:54:22] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[15:54:22] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[15:54:22] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[15:54:22] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[15:54:22] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[15:54:22] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[15:54:22] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
+[15:54:22] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[15:54:22] [Server thread/INFO]: [Essentials] Loaded 43880 items from items.json.
+[15:54:22] [Server thread/INFO]: [Essentials] Using locale en
+[15:54:23] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[15:54:23] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[15:54:23] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
+[15:54:23] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[15:54:23] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[15:54:23] [Server thread/INFO]: [TAB] Enabling TAB v5.4.0
+[15:54:24] [Server thread/INFO]: [TAB] [config.yml] [Hint] Refresh interval of %player_x% is same as default interval, therefore there is no need to override it.
+[15:54:24] [Server thread/INFO]: [TAB] [config.yml] [Hint] Refresh interval of %player_y% is same as default interval, therefore there is no need to override it.
+[15:54:24] [Server thread/INFO]: [TAB] [config.yml] [Hint] Refresh interval of %player_z% is same as default interval, therefore there is no need to override it.
+[15:54:24] [Server thread/INFO]: [TAB] [WARN] [config.yml] placeholders: Missing configuration section "placeholders.date-format" of type String, using default value dd.MM.yyyy.
+[15:54:24] [Server thread/INFO]: [TAB] [WARN] [config.yml] placeholders: Missing configuration section "placeholders.time-format" of type String, using default value [HH:mm:ss / h:mm a].
+[15:54:24] [Server thread/INFO]: [TAB] [WARN] [config.yml] placeholders: Missing configuration section "placeholders.time-offset" of type Number, using default value 0.
+[15:54:24] [Server thread/INFO]: [TAB] [WARN] [config.yml] belowname-objective: Missing configuration section "belowname-objective.disable-condition" of type String, using default value %world%=disabledworld.
+[15:54:24] [Server thread/INFO]: [TAB] [WARN] [config.yml] playerlist-objective: Missing configuration section "playerlist-objective.disable-condition" of type String, using default value %world%=disabledworld.
+[15:54:24] [Server thread/INFO]: [TAB] [WARN] [config.yml] scoreboard: Missing configuration section "scoreboard.remember-toggle-choice" of type Boolean, using default value false.
+[15:54:24] [Server thread/INFO]: [TAB] [WARN] [config.yml] scoreboard: Missing configuration section "scoreboard.hidden-by-default" of type Boolean, using default value false.
+[15:54:24] [Server thread/INFO]: [TAB] [WARN] [config.yml] scoreboard: Missing configuration section "scoreboard.use-numbers" of type Boolean, using default value true.
+[15:54:24] [Server thread/INFO]: [TAB] [WARN] [config.yml] scoreboard: Missing configuration section "scoreboard.static-number" of type Integer, using default value 0.
+[15:54:24] [Server thread/INFO]: [TAB] [WARN] [config.yml] scoreboard: Missing configuration section "scoreboard.delay-on-join-milliseconds" of type Integer, using default value 0.
+[15:54:24] [Server thread/INFO]: [TAB] [WARN] [config.yml] scoreboard-teams: Missing configuration section "scoreboard-teams.case-sensitive-sorting" of type Boolean, using default value true.
+[15:54:24] [Server thread/INFO]: [TAB] [WARN] [config.yml] tablist-name-formatting: Missing configuration section "tablist-name-formatting.disable-condition" of type String, using default value %world%=disabledworld.
+[15:54:24] [Server thread/INFO]: [TAB] [WARN] [config.yml] scoreboard-teams: Missing configuration section "scoreboard-teams.can-see-friendly-invisibles" of type Boolean, using default value false.
+[15:54:24] [Server thread/INFO]: [TAB] [WARN] [config.yml] scoreboard-teams: Missing configuration section "scoreboard-teams.disable-condition" of type String, using default value %world%=disabledworld.
+[15:54:24] [Server thread/INFO]: [TAB] [WARN] Found a total of 14 issues.
+[15:54:24] [Server thread/INFO]: [TAB] Enabled in 457ms
+[15:54:24] [Server thread/INFO]: [spark] Starting background profiler...
+[15:54:25] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[15:54:25] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[15:54:25] [Server thread/INFO]: [Geyser-Spigot] 
+[15:54:25] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.9.2-b1030 (git-master-1604268)
+[15:54:25] [Server thread/INFO]: [Geyser-Spigot] 
+[15:54:25] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[15:54:34] [GeyserServer-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 13277
+[15:54:34] [Server thread/INFO]: [Geyser-Spigot] Done (8.337s)! Run /geyser help for help!
+[15:54:34] [Server thread/INFO]: Running delayed init tasks
+[15:54:34] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[15:54:34] [Craft Scheduler Thread - 6 - Essentials/INFO]: [Essentials] Fetching version information...
+[15:54:34] [Server thread/INFO]: Done (67.366s)! For help, type "help"
+[15:54:34] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: server [2.7.3]
+[15:54:34] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: statistic [2.0.2]
+[15:54:34] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion playerstats due to a missing plugin: PlayerStats
+[15:54:34] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.9]
+[15:54:34] [Server thread/INFO]: 3 placeholder hook(s) registered!
+[15:54:38] [User Authenticator #0/INFO]: UUID of player MrGameBlaze is 5c281a75-0961-38af-947a-e8220a273a73
+[15:54:39] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, Essentials]
+[15:54:43] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 2dc6a83d-760a-45d8-a540-c9c06ab83ea1, mapped to Villager['Villager'/29, uuid='2dc6a83d-760a-45d8-a540-c9c06ab83ea1', l='ServerLevel[world]', x=-176.00, y=70.00, z=88.50, cpos=[-12, 5], tl=0, v=false], can't add Villager['Villager'/39, uuid='2dc6a83d-760a-45d8-a540-c9c06ab83ea1', l='ServerLevel[world]', x=-175.57, y=70.00, z=88.50, cpos=[-11, 5], tl=0, v=false]
+[15:54:43] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 2dc6a83d-760a-45d8-a540-c9c06ab83ea1, mapped to Villager['Villager'/29, uuid='2dc6a83d-760a-45d8-a540-c9c06ab83ea1', l='ServerLevel[world]', x=-176.00, y=70.00, z=88.50, cpos=[-12, 5], tl=0, v=false], can't add Villager['Villager'/54, uuid='2dc6a83d-760a-45d8-a540-c9c06ab83ea1', l='ServerLevel[world]', x=-158.54, y=70.00, z=80.70, cpos=[-10, 5], tl=0, v=false]
+[15:54:43] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 08ba7047-c345-42c2-a1eb-ea41e39c45fe, mapped to Cat['Cat'/41, uuid='08ba7047-c345-42c2-a1eb-ea41e39c45fe', l='ServerLevel[world]', x=-171.23, y=74.00, z=131.24, cpos=[-11, 8], tl=0, v=false], can't add Cat['Cat'/56, uuid='08ba7047-c345-42c2-a1eb-ea41e39c45fe', l='ServerLevel[world]', x=-150.80, y=73.00, z=122.16, cpos=[-10, 7], tl=0, v=false]
+[15:54:44] [pool-20-thread-1/INFO]: [nAntiBot] [Captcha] Captchas generated successfully. (RAM usage ≃ 8 MB [static only], total = 500, protocol count = 50, threads = 2, took 29.66s)
+[15:54:44] [Server thread/INFO]: MrGameBlaze joined the game
+[15:54:44] [Server thread/INFO]: MrGameBlaze[/127.135.103.139:39449] logged in with entity id 1 at ([world]-186.10519549078745, 72.5, 89.69059237327821)
+[15:54:45] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: e3279e88-6968-4d2a-91d0-cace124db600, mapped to Bat['Bat'/50, uuid='e3279e88-6968-4d2a-91d0-cace124db600', l='ServerLevel[world]', x=-153.95, y=0.03, z=50.44, cpos=[-10, 3], tl=0, v=true], can't add Bat['Bat'/93, uuid='e3279e88-6968-4d2a-91d0-cace124db600', l='ServerLevel[world]', x=-149.91, y=-1.78, z=24.84, cpos=[-10, 1], tl=0, v=false]
+[15:54:45] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 751462c4-afc5-44cd-ae7b-9adf4eae83d4, mapped to Bat['Bat'/61, uuid='751462c4-afc5-44cd-ae7b-9adf4eae83d4', l='ServerLevel[world]', x=-189.10, y=-6.00, z=18.15, cpos=[-12, 1], tl=0, v=true], can't add Bat['Bat'/98, uuid='751462c4-afc5-44cd-ae7b-9adf4eae83d4', l='ServerLevel[world]', x=-192.54, y=-5.91, z=13.76, cpos=[-13, 0], tl=0, v=false]
+[15:55:04] [Folia Async Scheduler Thread #2/INFO]: [nLogin] The user MrGameBlaze has successfully logged in.
+[15:55:39] [GeyserServerChild-4-1/INFO]: [Geyser-Spigot] Player connected with username SparedArt4990 (898)
+[15:55:39] [localSession-7-2/INFO]: [Geyser-Spigot] SparedArt4990 (logged in as: SparedArt4990) has connected to the Java server
+[15:55:39] [User Authenticator #1/INFO]: UUID of player SparedArt4990 is 89f09ea7-ab8b-39c6-bba6-36470fefe61b
+[15:55:40] [Server thread/INFO]: SparedArt4990 joined the game
+[15:55:40] [Server thread/INFO]: SparedArt4990[/127.204.12.108:0] logged in with entity id 368 at ([world]-562.69999, 66.0, -83.54011)
+[15:57:03] [Server thread/INFO]: SparedArt4990 issued server command: /login
+[15:57:03] [Folia Async Scheduler Thread #2/INFO]: [nLogin] The user SparedArt4990 has successfully logged in.
+[15:58:46] [Server thread/WARN]: SparedArt4990 moved wrongly!
+[16:01:05] [Server thread/INFO]: SparedArt4990 issued server command: /tpa MrGameBlaze
+[16:01:09] [Server thread/INFO]: MrGameBlaze issued server command: /tpaccept
+[16:01:25] [Server thread/INFO]: SparedArt4990 issued server command: /skin Ghost2026Yt
+[16:01:49] [Server thread/INFO]: MrGameBlaze was slain by SparedArt4990
+[16:02:35] [Server thread/INFO]: SparedArt4990 issued server command: /back
+[16:02:35] [Server thread/INFO]: [Essentials] SparedArt4990 was denied access to command.
+[16:03:01] [Server thread/INFO]: MrGameBlaze has made the advancement [Suit Up]
+[16:03:19] [Server thread/INFO]: MrGameBlaze has made the advancement [Acquire Hardware]
+[16:03:56] [Server thread/WARN]: SparedArt4990 moved wrongly!
+[16:04:21] [Server thread/WARN]: SparedArt4990 moved wrongly!
+[16:08:34] [Server thread/WARN]: SparedArt4990 moved wrongly!
+[16:11:40] [User Authenticator #2/INFO]: UUID of player makako11223300 is c021b5ba-c399-362f-a27d-5e9353632d69
+[16:11:42] [Server thread/INFO]: makako11223300 joined the game
+[16:11:42] [Server thread/INFO]: makako11223300[/127.46.24.28:55907] logged in with entity id 4651 at ([world]6.5, 76.0, -8.5)
+[16:11:57] [Folia Async Scheduler Thread #2/INFO]: [nLogin] The user makako11223300 has successfully registered.
+[16:12:23] [Server thread/INFO]: MrGameBlaze has made the advancement [Sweet Dreams]
+[16:13:22] [Async Chat Thread - #0/INFO]: [Not Secure] <makako11223300> mi ping esta ñaño
+[16:13:31] [Async Chat Thread - #0/INFO]: [Not Secure] <makako11223300> a ya no
+[16:13:48] [Async Chat Thread - #0/INFO]: [Not Secure] <makako11223300> soy cortes el de tiktok
+[16:14:22] [Async Chat Thread - #0/INFO]: [Not Secure] <MrGameBlaze> ./skin set
+[16:14:50] [Server thread/INFO]: makako11223300 issued server command: /skin set
+[16:14:55] [Server thread/INFO]: MrGameBlaze issued server command: /lp group default permission set skinsrestorer
+[16:15:02] [Server thread/INFO]: makako11223300 issued server command: /skins
+[16:17:04] [Server thread/INFO]: makako11223300 has made the advancement [Stone Age]
+[16:17:16] [Server thread/INFO]: makako11223300 has made the advancement [Getting an Upgrade]
+[16:17:35] [Server thread/INFO]: Villager Villager['Villager'/29, uuid='2dc6a83d-760a-45d8-a540-c9c06ab83ea1', l='ServerLevel[world]', x=-198.27, y=64.00, z=192.42, cpos=[-13, 12], tl=22254, v=true] died, message: 'Villager was slain by Zombie'
+[16:18:57] [Server thread/INFO]: makako11223300 has made the advancement [Monster Hunter]
+[16:19:10] [Server thread/WARN]: SparedArt4990 moved wrongly!
+[16:19:37] [Server thread/INFO]: MrGameBlaze was slain by SparedArt4990
+[16:24:11] [Server thread/WARN]: SparedArt4990 moved wrongly!
+[16:27:30] [Server thread/INFO]: makako11223300 drowned
+[16:27:36] [Server thread/INFO]: makako11223300 lost connection: Timed out
+[16:27:36] [Server thread/INFO]: makako11223300 left the game
+[16:29:49] [Server thread/INFO]: SparedArt4990 has made the advancement [Diamonds!]
+[16:31:19] [Server thread/INFO]: SparedArt4990 issued server command: /tpa MrGameBlaze
+[16:31:27] [Server thread/INFO]: MrGameBlaze issued server command: /tpaccept
+[16:33:44] [Server thread/INFO]: MrGameBlaze has made the advancement [What a Deal!]
+[16:35:30] [User Authenticator #3/INFO]: UUID of player makako11223300 is c021b5ba-c399-362f-a27d-5e9353632d69
+[16:35:31] [Server thread/INFO]: makako11223300 joined the game
+[16:35:31] [Server thread/INFO]: makako11223300[/127.46.24.28:55825] logged in with entity id 9991 at ([world]-156.12963438942774, 57.06877372766003, 20.54494986073653)
+[16:35:43] [Folia Async Scheduler Thread #3/INFO]: [nLogin] The user makako11223300 has successfully logged in.
+[16:35:48] [Async Chat Thread - #2/INFO]: [Not Secure] <makako11223300> si
+[16:35:52] [Async Chat Thread - #3/INFO]: [Not Secure] <makako11223300> cantv
+[16:36:21] [Server thread/INFO]: MrGameBlaze lost connection: Disconnected
+[16:36:21] [Server thread/INFO]: MrGameBlaze left the game
+[16:36:23] [Async Chat Thread - #2/INFO]: [Not Secure] <makako11223300> aver adivina de donde soy
+[16:36:25] [Server thread/ERROR]: Entity threw exception at world:-154.5,-48.0,59.5
+java.lang.NullPointerException: Cannot invoke "net.minecraft.world.entity.ai.goal.WrappedGoal.isRunning()" because "wrappedGoalx" is null
+	at net.minecraft.world.entity.ai.goal.GoalSelector.tick(GoalSelector.java:100) ~[paper-1.21.11.jar:1.21.11-92-e7445e1]
+	at net.minecraft.world.entity.Mob.serverAiStep(Mob.java:823) ~[paper-1.21.11.jar:1.21.11-92-e7445e1]
+	at net.minecraft.world.entity.LivingEntity.aiStep(LivingEntity.java:3659) ~[paper-1.21.11.jar:1.21.11-92-e7445e1]
+	at net.minecraft.world.entity.Mob.aiStep(Mob.java:522) ~[paper-1.21.11.jar:1.21.11-92-e7445e1]
+	at net.minecraft.world.entity.monster.Monster.aiStep(Monster.java:46) ~[paper-1.21.11.jar:1.21.11-92-e7445e1]
+	at net.minecraft.world.entity.LivingEntity.tick(LivingEntity.java:3382) ~[paper-1.21.11.jar:1.21.11-92-e7445e1]
+	at net.minecraft.world.entity.Mob.tick(Mob.java:389) ~[paper-1.21.11.jar:1.21.11-92-e7445e1]
+	at net.minecraft.world.entity.monster.zombie.Zombie.tick(Zombie.java:232) ~[paper-1.21.11.jar:1.21.11-92-e7445e1]
+	at net.minecraft.server.level.ServerLevel.tickNonPassenger(ServerLevel.java:1354) ~[paper-1.21.11.jar:1.21.11-92-e7445e1]
+	at net.minecraft.world.level.Level.guardEntityTick(Level.java:1428) ~[paper-1.21.11.jar:1.21.11-92-e7445e1]
+	at net.minecraft.server.level.ServerLevel.lambda$tick$4(ServerLevel.java:854) ~[paper-1.21.11.jar:1.21.11-92-e7445e1]
+	at net.minecraft.world.level.entity.EntityTickList.forEach(EntityTickList.java:39) ~[paper-1.21.11.jar:1.21.11-92-e7445e1]
+	at net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:836) ~[paper-1.21.11.jar:1.21.11-92-e7445e1]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1824) ~[paper-1.21.11.jar:1.21.11-92-e7445e1]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1616) ~[paper-1.21.11.jar:1.21.11-92-e7445e1]
+	at net.minecraft.server.dedicated.DedicatedServer.tickServer(DedicatedServer.java:427) ~[paper-1.21.11.jar:1.21.11-92-e7445e1]
+	at net.minecraft.server.MinecraftServer.processPacketsAndTick(MinecraftServer.java:1672) ~[paper-1.21.11.jar:1.21.11-92-e7445e1]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1340) ~[paper-1.21.11.jar:1.21.11-92-e7445e1]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388) ~[paper-1.21.11.jar:1.21.11-92-e7445e1]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+[16:36:29] [User Authenticator #3/INFO]: UUID of player MrGameBlaze is 5c281a75-0961-38af-947a-e8220a273a73
+[16:36:29] [Server thread/INFO]: MrGameBlaze joined the game
+[16:36:29] [Server thread/INFO]: MrGameBlaze[/127.135.103.139:49403] logged in with entity id 10423 at ([world]-175.52705598579223, 68.0, 53.51581292136991)
+[16:36:40] [Folia Async Scheduler Thread #3/INFO]: [nLogin] The user MrGameBlaze has successfully logged in.
+[16:37:07] [Async Chat Thread - #2/INFO]: [Not Secure] <SparedArt4990> ni idea no creo que seas de aragua
+[16:37:29] [Async Chat Thread - #2/INFO]: [Not Secure] <makako11223300> como que tambien tienen cantv
+[16:38:08] [Server thread/INFO]: makako11223300 lost connection: Disconnected
+[16:38:08] [Server thread/INFO]: makako11223300 left the game
+[16:41:46] [Server thread/WARN]: SparedArt4990 moved wrongly!
+[16:42:52] [Async Chat Thread - #4/INFO]: [Not Secure] <SparedArt4990> ellos
+[16:45:32] [Async Chat Thread - #6/INFO]: [Not Secure] <SparedArt4990> que paso ? XDDDD
+[16:45:35] [Async Chat Thread - #7/INFO]: [Not Secure] <MrGameBlaze> espera
+[16:51:36] [Server thread/WARN]: SparedArt4990 moved wrongly!
+[17:00:03] [Server thread/WARN]: SparedArt4990 moved wrongly!
+[17:03:26] [Server thread/INFO]: MrGameBlaze has made the advancement [Take Aim]
+[17:05:06] [Server thread/WARN]: SparedArt4990 moved wrongly!
+[17:08:41] [Server thread/WARN]: SparedArt4990 moved wrongly!
+[17:08:42] [Server thread/WARN]: SparedArt4990 moved wrongly!
+[17:08:44] [Server thread/WARN]: SparedArt4990 moved wrongly!
+[17:08:46] [Server thread/WARN]: SparedArt4990 moved wrongly!
+[17:08:47] [Server thread/WARN]: SparedArt4990 moved wrongly!
+[17:08:49] [Server thread/WARN]: SparedArt4990 moved wrongly!
+[17:09:54] [Server thread/INFO]: SparedArt4990 has made the advancement [What a Deal!]
+[17:12:11] [GeyserServerChild-4-1/INFO]: [Geyser-Spigot] SparedArt4990 has disconnected from the Java server because of Bedrock client disconnected
+[17:12:11] [Server thread/INFO]: SparedArt4990 lost connection: Disconnected
+[17:12:11] [Server thread/INFO]: SparedArt4990 left the game
+[17:13:38] [GeyserServerChild-4-2/INFO]: [Geyser-Spigot] Player connected with username SparedArt4990 (898)
+[17:13:38] [localSession-7-3/INFO]: [Geyser-Spigot] SparedArt4990 (logged in as: SparedArt4990) has connected to the Java server
+[17:13:38] [User Authenticator #4/INFO]: UUID of player SparedArt4990 is 89f09ea7-ab8b-39c6-bba6-36470fefe61b
+[17:13:38] [Server thread/INFO]: SparedArt4990 joined the game
+[17:13:38] [Server thread/INFO]: SparedArt4990[/127.204.12.108:0] logged in with entity id 17602 at ([world]-153.36678, 67.0, 55.70878)
+[17:14:07] [Server thread/INFO]: SparedArt4990 issued server command: /login
+[17:14:07] [Folia Async Scheduler Thread #1/INFO]: [nLogin] The user SparedArt4990 has successfully logged in.
+[17:17:17] [Async Chat Thread - #8/INFO]: [Not Secure] <SparedArt4990> en el apartado de plater del nexus mc
+[17:17:24] [Async Chat Thread - #8/INFO]: [Not Secure] <SparedArt4990> player
+[17:28:04] [Server thread/INFO]: MrGameBlaze has made the advancement [Ol' Betsy]
+[17:29:19] [GeyserServerChild-4-2/INFO]: [Geyser-Spigot] SparedArt4990 has disconnected from the Java server because of Bedrock client disconnected
+[17:29:19] [Server thread/INFO]: SparedArt4990 lost connection: Disconnected
+[17:29:20] [Server thread/INFO]: SparedArt4990 left the game
+[17:46:53] [User Authenticator #5/INFO]: UUID of player makako11223300 is c021b5ba-c399-362f-a27d-5e9353632d69
+[17:46:54] [Server thread/INFO]: makako11223300 joined the game
+[17:46:54] [Server thread/INFO]: makako11223300[/127.46.24.28:42873] logged in with entity id 22547 at ([world]-156.17476049372843, 67.0, 49.624128395772765)
+[17:46:59] [Folia Async Scheduler Thread #1/INFO]: [nLogin] The user makako11223300 has successfully logged in.
+[17:48:04] [User Authenticator #6/INFO]: UUID of player nochenoprim is 5306ddc1-152b-390e-aebc-70998b115b90
+[17:48:05] [Server thread/INFO]: nochenoprim joined the game
+[17:48:05] [Server thread/INFO]: nochenoprim[/127.77.37.231:47327] logged in with entity id 22763 at ([world]3.5, 71.0, -8.5)
+[17:48:31] [Server thread/INFO]: nochenoprim lost connection: Disconnected
+[17:48:31] [Server thread/INFO]: nochenoprim left the game
+[17:48:36] [User Authenticator #6/INFO]: UUID of player nochenoprim is 5306ddc1-152b-390e-aebc-70998b115b90
+[17:48:37] [Server thread/INFO]: nochenoprim joined the game
+[17:48:37] [Server thread/INFO]: nochenoprim[/127.77.37.231:57299] logged in with entity id 22965 at ([world]3.5, 71.0, -8.5)
+[17:48:38] [Async Chat Thread - #11/INFO]: [Not Secure] <MrGameBlaze> XD te saco
+[17:48:47] [Server thread/INFO]: nochenoprim lost connection: Disconnected
+[17:48:47] [Server thread/INFO]: nochenoprim left the game
+[17:48:51] [User Authenticator #6/INFO]: UUID of player nochenoprim is 5306ddc1-152b-390e-aebc-70998b115b90
+[17:48:52] [Server thread/INFO]: nochenoprim joined the game
+[17:48:52] [Server thread/INFO]: nochenoprim[/127.77.37.231:33899] logged in with entity id 23121 at ([world]3.5, 71.0, -8.5)
+[17:49:01] [Server thread/INFO]: makako11223300 has made the advancement [Acquire Hardware]
+[17:49:21] [Server thread/INFO]: nochenoprim lost connection: Disconnected
+[17:49:21] [Server thread/INFO]: nochenoprim left the game
+[17:49:28] [User Authenticator #6/INFO]: UUID of player nochenoprim is 5306ddc1-152b-390e-aebc-70998b115b90
+[17:49:29] [Server thread/INFO]: nochenoprim joined the game
+[17:49:29] [Server thread/INFO]: nochenoprim[/127.77.37.231:60777] logged in with entity id 23318 at ([world]3.5, 71.0, -8.5)
+[17:49:38] [Server thread/INFO]: nochenoprim lost connection: Disconnected
+[17:49:38] [Server thread/INFO]: nochenoprim left the game
+[17:49:42] [User Authenticator #6/INFO]: UUID of player nochenoprim is 5306ddc1-152b-390e-aebc-70998b115b90
+[17:49:44] [Server thread/INFO]: nochenoprim joined the game
+[17:49:44] [Server thread/INFO]: nochenoprim[/127.77.37.231:37439] logged in with entity id 23450 at ([world]3.5, 71.0, -8.5)
+[17:49:47] [Async Chat Thread - #12/INFO]: [Not Secure] <makako11223300> bro voy a comer y entro y te ayudo
+[17:49:50] [Server thread/INFO]: nochenoprim lost connection: Disconnected
+[17:49:50] [Server thread/INFO]: nochenoprim left the game
+[17:49:50] [Async Chat Thread - #12/INFO]: [Not Secure] <MrGameBlaze> ok
+[17:49:54] [User Authenticator #6/INFO]: UUID of player nochenoprim is 5306ddc1-152b-390e-aebc-70998b115b90
+[17:49:55] [Server thread/INFO]: nochenoprim joined the game
+[17:49:55] [Server thread/INFO]: nochenoprim[/127.77.37.231:49317] logged in with entity id 23563 at ([world]3.5, 71.0, -8.5)
+[17:49:56] [Server thread/INFO]: makako11223300 lost connection: Disconnected
+[17:49:56] [Server thread/INFO]: makako11223300 left the game
+[17:50:15] [Folia Async Scheduler Thread #1/INFO]: [nLogin] The user nochenoprim has successfully registered.
+[17:50:20] [Async Chat Thread - #13/INFO]: [Not Secure] <nochenoprim> alfinn
+[17:50:54] [Async Chat Thread - #13/INFO]: [Not Secure] <MrGameBlaze> xd
+[17:51:05] [Async Chat Thread - #12/INFO]: [Not Secure] <nochenoprim> no me deja romper madera xd
+[17:52:05] [Async Chat Thread - #14/INFO]: [Not Secure] <MrGameBlaze> es por el spawn
+[17:52:08] [Async Chat Thread - #15/INFO]: [Not Secure] <MrGameBlaze> proteccion inicia
+[17:53:17] [Async Chat Thread - #16/INFO]: [Not Secure] <nochenoprim> te ayudo en algo?
+[17:53:35] [Async Chat Thread - #16/INFO]: [Not Secure] <nochenoprim> q shusha hago con esto xd
+[17:53:40] [Async Chat Thread - #16/INFO]: [Not Secure] <MrGameBlaze> lo que queiras
+[17:53:46] [Async Chat Thread - #16/INFO]: [Not Secure] <MrGameBlaze> se me paso la mano
+[17:53:55] [Async Chat Thread - #16/INFO]: [Not Secure] <nochenoprim> un pokito
+[17:54:00] [Async Chat Thread - #16/INFO]: [Not Secure] <MrGameBlaze> si queres tala madera oara tradear
+[17:54:14] [Async Chat Thread - #16/INFO]: [Not Secure] <nochenoprim> les pegaste? xd
+[17:54:18] [Async Chat Thread - #16/INFO]: [Not Secure] <MrGameBlaze> nel
+[17:54:25] [Async Chat Thread - #16/INFO]: [Not Secure] <nochenoprim> pq decis q es caro
+[17:54:36] [Async Chat Thread - #16/INFO]: [Not Secure] <MrGameBlaze> por alguans razones
+[17:54:41] [Async Chat Thread - #17/INFO]: [Not Secure] <nochenoprim> mmm
+[17:54:48] [Async Chat Thread - #17/INFO]: [Not Secure] <MrGameBlaze> quizs si le pego a algunos
+[17:54:52] [Server thread/ERROR]: Entity threw exception at world:-221.5,-21.0,123.5
+java.lang.NullPointerException
+[17:54:53] [User Authenticator #7/INFO]: UUID of player makako11223300 is c021b5ba-c399-362f-a27d-5e9353632d69
+[17:54:54] [Server thread/INFO]: makako11223300 joined the game
+[17:54:54] [Server thread/INFO]: makako11223300[/127.46.24.28:59489] logged in with entity id 24645 at ([world]-163.47249963512627, 69.0, 51.83434552417864)
+[17:54:56] [Server thread/INFO]: nochenoprim has made the advancement [Sweet Dreams]
+[17:55:03] [Folia Async Scheduler Thread #3/INFO]: [nLogin] The user makako11223300 has successfully logged in.
+[17:55:23] [Async Chat Thread - #16/INFO]: [Not Secure] <nochenoprim> aldeano nuevo
+[17:55:26] [Async Chat Thread - #17/INFO]: [Not Secure] <MrGameBlaze> xd
+[17:55:26] [Async Chat Thread - #17/INFO]: [Not Secure] <nochenoprim> a xd
+[17:55:31] [Async Chat Thread - #16/INFO]: [Not Secure] <nochenoprim> hacker
+[17:55:50] [Async Chat Thread - #17/INFO]: [Not Secure] <makako11223300> y porque tantas mesas de crafteo
+[17:55:51] [Server thread/INFO]: nochenoprim has made the advancement [Acquire Hardware]
+[17:55:53] [Server thread/ERROR]: Entity threw exception at world:-213.5,41.0,-27.5
+java.lang.NullPointerException
+[17:55:56] [Async Chat Thread - #17/INFO]: [Not Secure] <MrGameBlaze> se me fue la mano
+[17:56:19] [Async Chat Thread - #17/INFO]: [Not Secure] <nochenoprim> volvia solito xd
+[17:56:30] [Async Chat Thread - #17/INFO]: [Not Secure] <MrGameBlaze> sisa
+[17:56:35] [Async Chat Thread - #17/INFO]: [Not Secure] <nochenoprim> despacio aa
+[17:56:42] [Async Chat Thread - #17/INFO]: [Not Secure] <nochenoprim> xddd
+[17:56:54] [Server thread/INFO]: nochenoprim has made the advancement [Monster Hunter]
+[17:57:23] [Async Chat Thread - #17/INFO]: [Not Secure] <nochenoprim> xdd
+[17:57:28] [Server thread/INFO]: makako11223300 has made the advancement [Sweet Dreams]
+[17:58:30] [Server thread/INFO]: makako11223300 was kicked due to keepalive timeout!
+[17:58:30] [Server thread/INFO]: makako11223300 lost connection: Timed out
+[17:58:30] [Server thread/INFO]: makako11223300 left the game
+[17:58:32] [Server thread/INFO]: nochenoprim has made the advancement [Isn't It Iron Pick]
+[17:58:46] [Async Chat Thread - #19/INFO]: [Not Secure] <MrGameBlaze> agarra un hacha y talas
+[17:58:51] [Async Chat Thread - #19/INFO]: [Not Secure] <nochenoprim> oka
+[17:58:56] [Async Chat Thread - #20/INFO]: [Not Secure] <nochenoprim> me hize un pico xd
+[17:58:59] [Async Chat Thread - #18/INFO]: [Not Secure] <MrGameBlaze> xd
+[17:59:18] [Async Chat Thread - #20/INFO]: [Not Secure] <nochenoprim> tenes food?
+[17:59:28] [Async Chat Thread - #18/INFO]: [Not Secure] <MrGameBlaze> si
+[17:59:33] [Async Chat Thread - #18/INFO]: [Not Secure] <nochenoprim> kiero
+[17:59:43] [Async Chat Thread - #20/INFO]: [Not Secure] <nochenoprim> grax
+[17:59:50] [Async Chat Thread - #20/INFO]: [Not Secure] <MrGameBlaze> si queres skin usa /skin set {jugador}
+[17:59:56] [Server thread/INFO]: nochenoprim issued server command: /skin set Marlowww
+[18:00:03] [Async Chat Thread - #20/INFO]: [Not Secure] <MrGameBlaze> yo hablandote en el stream xd
+[18:00:08] [Async Chat Thread - #18/INFO]: [Not Secure] <nochenoprim> XD
+[18:00:15] [Async Chat Thread - #20/INFO]: [Not Secure] <nochenoprim> esquizofrenia
+[18:00:17] [Async Chat Thread - #20/INFO]: [Not Secure] <MrGameBlaze> sisa
+[18:00:57] [Server thread/INFO]: nochenoprim has made the advancement [Stone Age]
+[18:02:39] [Async Chat Thread - #21/INFO]: [Not Secure] <MrGameBlaze> hare como que no vi
+[18:02:45] [Async Chat Thread - #21/INFO]: [Not Secure] <nochenoprim> yo tampoco
+[18:03:19] [Async Chat Thread - #21/INFO]: [Not Secure] <nochenoprim> y eso? MrGameBlaze
+[18:03:22] [Async Chat Thread - #21/INFO]: [Not Secure] <nochenoprim> ese xray
+[18:03:27] [Async Chat Thread - #21/INFO]: [Not Secure] <MrGameBlaze> freecam
+[18:03:47] [Async Chat Thread - #21/INFO]: [Not Secure] <MrGameBlaze> pa vigilar :v
+[18:03:54] [Async Chat Thread - #21/INFO]: [Not Secure] <nochenoprim> aaa
+[18:05:58] [Async Chat Thread - #23/INFO]: [Not Secure] <nochenoprim> bajale el vol a la lluvia we
+[18:06:14] [Async Chat Thread - #23/INFO]: [Not Secure] <nochenoprim> ahi
+[18:06:29] [Async Chat Thread - #23/INFO]: [Not Secure] <nochenoprim> t¿ash
+[18:06:44] [Server thread/INFO]: nochenoprim fell from a high place
+[18:06:49] [Async Chat Thread - #23/INFO]: [Not Secure] <nochenoprim> xd
+[18:06:53] [Server thread/INFO]: nochenoprim issued server command: /back
+[18:06:53] [Server thread/INFO]: [Essentials] nochenoprim was denied access to command.
+[18:07:05] [Async Chat Thread - #25/INFO]: [Not Secure] <nochenoprim> tenia como 20 de hierro
+[18:07:12] [Async Chat Thread - #24/INFO]: [Not Secure] <MrGameBlaze> a punta de hacks seuro
+[18:07:23] [Async Chat Thread - #24/INFO]: [Not Secure] <nochenoprim> nono entre a un hueco como siempre
+[18:08:21] [Server thread/INFO]: nochenoprim fell from a high place
+[18:08:33] [Async Chat Thread - #26/INFO]: [Not Secure] <nochenoprim> alta ravin hay xd
+[18:08:40] [Async Chat Thread - #26/INFO]: [Not Secure] <MrGameBlaze> y el nofalldamage
+[18:09:09] [Async Chat Thread - #27/INFO]: [Not Secure] <nochenoprim> ni la se usar XD
+[18:11:04] [Server thread/INFO]: nochenoprim has made the advancement [Suit Up]
+[18:11:08] [Async Chat Thread - #28/INFO]: [Not Secure] <nochenoprim> el huezo}
+[18:11:16] [Server thread/INFO]: MrGameBlaze has made the advancement [Cover Me with Diamonds]
+[18:11:54] [Async Chat Thread - #28/INFO]: [Not Secure] <nochenoprim> quitate aldeano de mrd
+[18:12:09] [Async Chat Thread - #29/INFO]: [Not Secure] <nochenoprim> tomsa
+[18:12:11] [Async Chat Thread - #29/INFO]: [Not Secure] <nochenoprim> toma
+[18:12:23] [Async Chat Thread - #29/INFO]: [Not Secure] <MrGameBlaze> xd
+[18:12:55] [Async Chat Thread - #29/INFO]: [Not Secure] <nochenoprim> matamo a la wea de la dragona?
+[18:13:02] [Async Chat Thread - #29/INFO]: [Not Secure] <MrGameBlaze> dale un tempo
+[18:13:10] [Async Chat Thread - #29/INFO]: [Not Secure] <nochenoprim> pa q se paje? nah
+[18:13:34] [Async Chat Thread - #29/INFO]: [Not Secure] <MrGameBlaze> aun no hay que disfrutar mas el mundo
+[18:13:37] [Async Chat Thread - #29/INFO]: [Not Secure] <nochenoprim> se escucha mas la lluvia que tu vos XDD
+[18:14:45] [Async Chat Thread - #30/INFO]: [Not Secure] <nochenoprim> un regalo
+[18:14:45] [Server thread/INFO]: nochenoprim was shot by MrGameBlaze
+[18:14:49] [Async Chat Thread - #30/INFO]: [Not Secure] <MrGameBlaze> xd
+[18:14:54] [Server thread/ERROR]: Entity threw exception at world:-119.5,67.0,69.5
+java.lang.NullPointerException
+[18:15:21] [Server thread/INFO]: MrGameBlaze was slain by nochenoprim
+[18:15:36] [Async Chat Thread - #30/INFO]: [Not Secure] <nochenoprim> nono era el kil aura XCDDD
+[18:16:05] [Server thread/INFO]: nochenoprim was shot by MrGameBlaze
+[18:16:10] [Async Chat Thread - #30/INFO]: [Not Secure] <nochenoprim> pendejo
+[18:16:30] [Async Chat Thread - #31/INFO]: [Not Secure] <nochenoprim> q mrd es la lanza xd
+[18:17:05] [Server thread/INFO]: nochenoprim was slain by MrGameBlaze
+[18:17:09] [Async Chat Thread - #30/INFO]: [Not Secure] <nochenoprim> tamare
+[18:17:24] [Async Chat Thread - #30/INFO]: [Not Secure] <nochenoprim> este es el auto cricials
+[18:17:44] [Server thread/INFO]: nochenoprim was slain by MrGameBlaze
+[18:17:52] [Async Chat Thread - #30/INFO]: [Not Secure] <nochenoprim> me enoie
+[18:18:50] [Async Chat Thread - #30/INFO]: [Not Secure] <nochenoprim> paz y amorchito?
+[18:19:01] [Async Chat Thread - #30/INFO]: [Not Secure] <nochenoprim> una flor para un gato negro
+[18:19:10] [Async Chat Thread - #30/INFO]: [Not Secure] <MrGameBlaze> doy mala suerte
+[18:19:21] [Async Chat Thread - #30/INFO]: [Not Secure] <nochenoprim> y si sos alto negro si
+[18:19:51] [Server thread/INFO]: nochenoprim has made the advancement [Getting an Upgrade]
+[18:20:33] [Async Chat Thread - #32/INFO]: [Not Secure] <nochenoprim> tene caña?
+[18:20:38] [Async Chat Thread - #32/INFO]: [Not Secure] <MrGameBlaze> nel
+[18:20:48] [Async Chat Thread - #32/INFO]: [Not Secure] <nochenoprim> te vi agarrar caña xd
+[18:20:54] [Async Chat Thread - #32/INFO]: [Not Secure] <MrGameBlaze> replante
+[18:21:10] [Async Chat Thread - #32/INFO]: [Not Secure] <nochenoprim> te traigo una sorpresa rika
+[18:21:24] [Server thread/INFO]: nochenoprim has made the advancement [Not Today, Thank You]
+[18:22:13] [Async Chat Thread - #34/INFO]: [Not Secure] <nochenoprim> q tan escasos de comida tamos
+[18:22:18] [Async Chat Thread - #34/INFO]: [Not Secure] <MrGameBlaze> cero
+[18:22:21] [Async Chat Thread - #35/INFO]: [Not Secure] <MrGameBlaze> enemos esclavos para eso
+[18:22:31] [Async Chat Thread - #35/INFO]: [Not Secure] <nochenoprim> sip yo estoy viendo uno
+[18:22:40] [Async Chat Thread - #35/INFO]: [Not Secure] <MrGameBlaze> yo si tengo derechos
+[18:22:53] [Async Chat Thread - #35/INFO]: [Not Secure] <nochenoprim> pero el gato negro no asique no tienez
+[18:24:32] [Server thread/INFO]: nochenoprim has made the advancement [Take Aim]
+[18:26:26] [Async Chat Thread - #36/INFO]: [Not Secure] <nochenoprim> te rozo las orejas la flecha pero te agachate xd
+[18:26:35] [Async Chat Thread - #36/INFO]: [Not Secure] <MrGameBlaze> matrix
+[18:26:38] [Async Chat Thread - #36/INFO]: [Not Secure] <nochenoprim> I
+[18:26:40] [Async Chat Thread - #36/INFO]: [Not Secure] <nochenoprim> ZI
+[18:27:03] [Async Chat Thread - #36/INFO]: [Not Secure] <nochenoprim> mira ven
+[18:27:06] [Async Chat Thread - #36/INFO]: [Not Secure] <nochenoprim> te mostrare alguito
+[18:27:07] [Async Chat Thread - #36/INFO]: [Not Secure] <MrGameBlaze> hay voy
+[18:27:47] [Async Chat Thread - #36/INFO]: [Not Secure] <nochenoprim> lo utilizo pa 2b2t
+[18:27:49] [Async Chat Thread - #36/INFO]: [Not Secure] <MrGameBlaze> mas hackeado no podes
+[18:27:55] [Async Chat Thread - #36/INFO]: [Not Secure] <nochenoprim> y ño
+[18:28:26] [Async Chat Thread - #36/INFO]: [Not Secure] <nochenoprim> agarre toda tu basura
+[18:28:35] [Async Chat Thread - #36/INFO]: [Not Secure] <nochenoprim> q mira
+[18:28:42] [Async Chat Thread - #36/INFO]: [Not Secure] <MrGameBlaze> pegale a ver
+[18:28:45] [Async Chat Thread - #36/INFO]: [Not Secure] <MrGameBlaze> e sin hacks
+[18:28:51] [Async Chat Thread - #36/INFO]: [Not Secure] <MrGameBlaze> como macho
+[18:28:57] [Async Chat Thread - #36/INFO]: [Not Secure] <nochenoprim> el golem tiene hacks mmss
+[18:29:00] [Async Chat Thread - #37/INFO]: [Not Secure] <MrGameBlaze> xd
+[18:29:14] [Async Chat Thread - #37/INFO]: [Not Secure] <nochenoprim> utiliza reach
+[18:30:04] [Server thread/INFO]: nochenoprim was slain by Iron Golem
+[18:30:09] [Async Chat Thread - #37/INFO]: [Not Secure] <nochenoprim> watafak bro
+[18:30:21] [Server thread/WARN]: nochenoprim moved wrongly!
+[18:30:25] [Async Chat Thread - #37/INFO]: [Not Secure] <nochenoprim> no disimula zzz
+[18:30:27] [Server thread/WARN]: nochenoprim moved wrongly!
+[18:30:30] [Server thread/WARN]: nochenoprim moved wrongly!
+[18:31:28] [Async Chat Thread - #38/INFO]: [Not Secure] <nochenoprim> JAJA LE GANE SIN HACKS ZZZZZZZZZ
+[18:31:36] [Async Chat Thread - #38/INFO]: [Not Secure] <MrGameBlaze> pero te dejo hecho mierda
+[18:31:42] [Async Chat Thread - #38/INFO]: [Not Secure] <nochenoprim> shh calle y juega
+[18:32:39] [Async Chat Thread - #38/INFO]: [Not Secure] <nochenoprim> god espinas
+[18:32:52] [Async Chat Thread - #38/INFO]: [Not Secure] <nochenoprim> te juego con espada de madera
+[18:33:00] [Async Chat Thread - #39/INFO]: [Not Secure] <MrGameBlaze> pero sin hacks pe
+[18:33:04] [Async Chat Thread - #39/INFO]: [Not Secure] <nochenoprim> oka
+[18:33:08] [Async Chat Thread - #39/INFO]: [Not Secure] <nochenoprim> deja me hago la espada
+[18:33:11] [Async Chat Thread - #39/INFO]: [Not Secure] <nochenoprim> o hacha
+[18:33:37] [Server thread/INFO]: MrGameBlaze issued server command: /enderchest
+[18:33:56] [Async Chat Thread - #39/INFO]: [Not Secure] <nochenoprim> ya
+[18:34:09] [Async Chat Thread - #38/INFO]: [Not Secure] <nochenoprim> ya
+[18:34:15] [Async Chat Thread - #38/INFO]: [Not Secure] <MrGameBlaze> dejame curarme
+[18:34:21] [Async Chat Thread - #39/INFO]: [Not Secure] <nochenoprim> gou
+[18:34:37] [Server thread/INFO]: nochenoprim was slain by MrGameBlaze
+[18:34:43] [Async Chat Thread - #39/INFO]: [Not Secure] <nochenoprim> lagazo no vale
+[18:34:54] [Async Chat Thread - #39/INFO]: [Not Secure] <MrGameBlaze> oka
+[18:34:58] [Async Chat Thread - #39/INFO]: [Not Secure] <nochenoprim> a puño xd
+[18:35:08] [Async Chat Thread - #39/INFO]: [Not Secure] <MrGameBlaze> ok
+[18:35:26] [Async Chat Thread - #39/INFO]: [Not Secure] <MrGameBlaze> sin hacks
+[18:35:27] [Async Chat Thread - #39/INFO]: [Not Secure] <nochenoprim> a xd
+[18:35:29] [Async Chat Thread - #38/INFO]: [Not Secure] <nochenoprim> el auto
+[18:35:33] [Async Chat Thread - #39/INFO]: [Not Secure] <nochenoprim> ya
+[18:35:34] [Async Chat Thread - #39/INFO]: [Not Secure] <MrGameBlaze> ya notaba algo raro
+[18:35:53] [Async Chat Thread - #39/INFO]: [Not Secure] <MrGameBlaze> hitboxes enserio
+[18:36:18] [Server thread/INFO]: nochenoprim was slain by Zombie
+[18:36:28] [Async Chat Thread - #39/INFO]: [Not Secure] <nochenoprim> as de dia xd
+[18:36:52] [Async Chat Thread - #39/INFO]: [Not Secure] <MrGameBlaze> easy
+[18:37:19] [Async Chat Thread - #39/INFO]: [Not Secure] <nochenoprim> la speed al maximo con kill aura y hitbox da esto mira
+[18:37:26] [Async Chat Thread - #39/INFO]: [Not Secure] <nochenoprim> y criticals
+[18:37:38] [Async Chat Thread - #38/INFO]: [Not Secure] <MrGameBlaze> igual que 2b2t
+[18:37:41] [Async Chat Thread - #38/INFO]: [Not Secure] <nochenoprim> se
+[18:37:47] [Async Chat Thread - #38/INFO]: [Not Secure] <nochenoprim> yo lo uso x100 a esto
+[18:38:01] [Async Chat Thread - #38/INFO]: [Not Secure] <MrGameBlaze> super hacks
+[18:38:10] [Async Chat Thread - #38/INFO]: [Not Secure] <nochenoprim> es lo inicial
+[18:38:51] [Async Chat Thread - #39/INFO]: [Not Secure] <nochenoprim> un pvp yo sin hacks y dps con hacks
+[18:39:01] [Async Chat Thread - #39/INFO]: [Not Secure] <nochenoprim> sin hacks primero
+[18:39:07] [Async Chat Thread - #39/INFO]: [Not Secure] <MrGameBlaze> si no tengo acks
+[18:39:15] [Async Chat Thread - #38/INFO]: [Not Secure] <nochenoprim> yo digo xd
+[18:39:24] [Async Chat Thread - #38/INFO]: [Not Secure] <MrGameBlaze> llava
+[18:39:28] [Async Chat Thread - #38/INFO]: [Not Secure] <MrGameBlaze> dejae m quitarme le lag
+[18:39:31] [Async Chat Thread - #38/INFO]: [Not Secure] <nochenoprim> xd
+[18:40:03] [Server thread/WARN]: nochenoprim moved wrongly!
+[18:40:15] [Async Chat Thread - #38/INFO]: [Not Secure] <nochenoprim> descubri algo nuevo
+[18:40:16] [Server thread/WARN]: nochenoprim moved wrongly!
+[18:40:20] [Server thread/WARN]: nochenoprim moved wrongly!
+[18:40:20] [Server thread/WARN]: nochenoprim moved wrongly!
+[18:40:21] [Async Chat Thread - #38/INFO]: [Not Secure] <MrGameBlaze> goku
+[18:40:24] [Async Chat Thread - #38/INFO]: [Not Secure] <nochenoprim> xdd
+[18:41:37] [Server thread/INFO]: MrGameBlaze was slain by nochenoprim
+[18:41:45] [Async Chat Thread - #40/INFO]: [Not Secure] <nochenoprim> disimula
+[18:41:46] [Async Chat Thread - #40/INFO]: [Not Secure] <nochenoprim> el lag
+[18:41:48] [Async Chat Thread - #40/INFO]: [Not Secure] <MrGameBlaze> xd
+[18:41:52] [Async Chat Thread - #40/INFO]: [Not Secure] <MrGameBlaze> estar en live gasta cpu
+[18:41:53] [Async Chat Thread - #40/INFO]: [Not Secure] <nochenoprim> ahora yo con hacks xd
+[18:41:58] [Async Chat Thread - #40/INFO]: [Not Secure] <MrGameBlaze> nojoda ya ganaste
+[18:42:12] [Async Chat Thread - #40/INFO]: [Not Secure] <nochenoprim> cagaste mi bebe lindo
+[18:42:13] [Server thread/WARN]: nochenoprim moved wrongly!
+[18:42:15] [Server thread/WARN]: nochenoprim moved wrongly!
+[18:42:16] [Server thread/WARN]: nochenoprim moved wrongly!
+[18:42:17] [Async Chat Thread - #40/INFO]: [Not Secure] <MrGameBlaze> xd
+[18:42:20] [Async Chat Thread - #41/INFO]: [Not Secure] <MrGameBlaze> te hiciste daño solo
+[18:42:25] [Async Chat Thread - #41/INFO]: [Not Secure] <MrGameBlaze> recuerda soy admin
+[18:42:34] [Server thread/WARN]: nochenoprim moved wrongly!
+[18:42:40] [Async Chat Thread - #41/INFO]: [Not Secure] <nochenoprim> owner no admin
+[18:42:47] [Server thread/INFO]: MrGameBlaze issued server command: /fly
+[18:43:08] [Server thread/WARN]: nochenoprim moved wrongly!
+[18:43:08] [Server thread/WARN]: nochenoprim moved wrongly!
+[18:43:19] [Async Chat Thread - #41/INFO]: [Not Secure] <nochenoprim> quiero probar hacks
+[18:43:27] [Server thread/WARN]: nochenoprim moved wrongly!
+[18:43:37] [Async Chat Thread - #40/INFO]: [Not Secure] <MrGameBlaze> ve a 2b2t
+[18:43:39] [Async Chat Thread - #40/INFO]: [Not Secure] <nochenoprim> dame bloques
+[18:43:44] [Async Chat Thread - #40/INFO]: [Not Secure] <nochenoprim> es premium creo xd
+[18:43:49] [Async Chat Thread - #41/INFO]: [Not Secure] <MrGameBlaze> ve a infection
+[18:43:51] [Async Chat Thread - #41/INFO]: [Not Secure] <MrGameBlaze> tienen anarquico
+[18:43:56] [Async Chat Thread - #40/INFO]: [Not Secure] <nochenoprim> aa vrddd
+[18:44:00] [Async Chat Thread - #41/INFO]: [Not Secure] <nochenoprim> mira pa
+[18:44:07] [Async Chat Thread - #41/INFO]: [Not Secure] <MrGameBlaze> xd pa skywars
+[18:44:10] [Async Chat Thread - #41/INFO]: [Not Secure] <nochenoprim> claro xd
+[18:44:23] [Async Chat Thread - #41/INFO]: [Not Secure] <nochenoprim> dame stacks de tierra o algo
+[18:44:38] [Async Chat Thread - #41/INFO]: [Not Secure] <MrGameBlaze> despues me toca romper todo
+[18:44:43] [Async Chat Thread - #41/INFO]: [Not Secure] <nochenoprim> yo lo rompo xd
+[18:44:45] [Async Chat Thread - #40/INFO]: [Not Secure] <nochenoprim> con chitz
+[18:45:10] [Async Chat Thread - #40/INFO]: [Not Secure] <nochenoprim> dame la pala
+[18:46:17] [Async Chat Thread - #42/INFO]: [Not Secure] <nochenoprim> adivina q hacks uso de cliente
+[18:46:21] [Async Chat Thread - #42/INFO]: [Not Secure] <MrGameBlaze> meteor?
+[18:46:25] [Server thread/WARN]: nochenoprim moved wrongly!
+[18:46:28] [Async Chat Thread - #42/INFO]: [Not Secure] <MrGameBlaze> wurps
+[18:46:29] [Async Chat Thread - #42/INFO]: [Not Secure] <nochenoprim> chii
+[18:46:31] [Async Chat Thread - #42/INFO]: [Not Secure] <nochenoprim> meteor
+[18:46:34] [Async Chat Thread - #42/INFO]: [Not Secure] <MrGameBlaze> goty
+[18:46:40] [Async Chat Thread - #42/INFO]: [Not Secure] <nochenoprim> goticas?
+[18:46:44] [Async Chat Thread - #43/INFO]: [Not Secure] <MrGameBlaze> tambien
+[18:46:46] [Async Chat Thread - #42/INFO]: [Not Secure] <nochenoprim> cual tiene dupe :3
+[18:47:01] [Server thread/WARN]: nochenoprim was kicked for floating too long!
+[18:47:01] [Server thread/INFO]: nochenoprim lost connection: Flying is not enabled on this server
+[18:47:01] [Server thread/INFO]: nochenoprim left the game
+[18:47:14] [User Authenticator #8/INFO]: UUID of player nochenoprim is 5306ddc1-152b-390e-aebc-70998b115b90
+[18:47:15] [Server thread/INFO]: nochenoprim (5306ddc1-152b-390e-aebc-70998b115b90) lost connection: Disconnected
+[18:47:33] [User Authenticator #8/INFO]: UUID of player nochenoprim is 5306ddc1-152b-390e-aebc-70998b115b90
+[18:47:34] [Server thread/INFO]: nochenoprim joined the game
+[18:47:34] [Server thread/INFO]: nochenoprim[/127.77.37.231:44005] logged in with entity id 34791 at ([world]-159.95111006471475, 68.69994540525381, 43.86020009176445)
+[18:47:41] [Folia Async Scheduler Thread #2/INFO]: [nLogin] The user nochenoprim has successfully logged in.
+[18:48:17] [Server thread/INFO]: MrGameBlaze issued server command: /enderchest
+[18:48:21] [Server thread/WARN]: nochenoprim moved wrongly!
+[18:48:31] [Async Chat Thread - #45/INFO]: [Not Secure] <nochenoprim> amo los hacks dea
+[18:48:41] [Server thread/WARN]: nochenoprim moved wrongly!
+[18:48:41] [Server thread/WARN]: nochenoprim moved wrongly!
+[18:48:41] [Server thread/WARN]: nochenoprim moved wrongly!
+[18:48:42] [Server thread/WARN]: nochenoprim moved wrongly!
+[18:48:43] [Server thread/WARN]: nochenoprim moved wrongly!
+[18:48:44] [Server thread/WARN]: nochenoprim moved too quickly! 11.0,0.0,-1.0
+[18:49:50] [Server thread/INFO]: nochenoprim was slain by MrGameBlaze
+[18:50:00] [Server thread/INFO]: nochenoprim was slain by MrGameBlaze
+[18:50:07] [Server thread/WARN]: nochenoprim moved wrongly!
+[18:50:29] [Server thread/INFO]: nochenoprim fell from a high place
+[18:50:36] [Async Chat Thread - #46/INFO]: [Not Secure] <nochenoprim> xd
+[18:50:49] [Server thread/INFO]: MrGameBlaze issued server command: /stop
+[18:50:49] [Server thread/INFO]: [MrGameBlaze: Stopping the server]
+[18:50:50] [Server thread/INFO]: Stopping server
+[18:50:50] [Server thread/INFO]: [TAB] Disabling TAB v5.4.0
+[18:50:50] [Server thread/INFO]: [TAB] Disabled in 3ms
+[18:50:50] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.2
+[18:50:50] [Server thread/INFO]: [[38;5;11m⚡[0m] Disabling LagFixer v1.5.1.9 [build 140]
+[18:50:50] [Server thread/INFO]: [[38;5;11m⚡[0m] (ErrorsManager) -> Disabling manager...
+[18:50:50] [Server thread/INFO]: [[38;5;11m⚡[0m] (ErrorsManager) -> Disabled manager in 0ms!
+[18:50:50] [Server thread/INFO]: [[38;5;11m⚡[0m] (ConfigManager) -> Disabling manager...
+[18:50:50] [Server thread/INFO]: [[38;5;11m⚡[0m] (ConfigManager) -> Disabled manager in 0ms!
+[18:50:50] [Server thread/INFO]: [[38;5;11m⚡[0m] (SupportManager) -> Disabling manager...
+[18:50:50] [Server thread/INFO]: [[38;5;11m⚡[0m] (SupportManager) -> Disabled manager in 5ms!
+[18:50:50] [Server thread/INFO]: [[38;5;11m⚡[0m] (HookManager) -> Disabling manager...
+[18:50:50] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully disabled hook PlaceholderAPI in 0ms!
+[18:50:50] [Server thread/INFO]: [[38;5;11m⚡[0m] (HookManager) -> Disabled manager in 1ms!
+[18:50:50] [Server thread/INFO]: [[38;5;11m⚡[0m] (MetricsManager) -> Disabling manager...
+[18:50:50] [Server thread/INFO]: [[38;5;11m⚡[0m] (MetricsManager) -> Disabled manager in 0ms!
+[18:50:50] [Server thread/INFO]: [[38;5;11m⚡[0m] (UpdaterManager) -> Disabling manager...
+[18:50:50] [Server thread/INFO]: [[38;5;11m⚡[0m] (UpdaterManager) -> Disabled manager in 0ms!
+[18:50:50] [Server thread/INFO]: [[38;5;11m⚡[0m] (ModuleManager) -> Disabling manager...
+[18:50:50] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully disabled module RedstoneLimiter in 0ms.
+[18:50:50] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully disabled module InstantLeafDecay in 0ms.
+[18:50:50] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully disabled module WorldCleaner in 0ms.
+[18:50:50] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully disabled module LagShield in 0ms.
+[18:50:50] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully disabled module ExplosionOptimizer in 1ms.
+[18:50:50] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully disabled module MobAiReducer in 0ms.
+[18:50:50] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully disabled module EntityLimiter in 1ms.
+[18:50:50] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully disabled module AbilityLimiter in 0ms.
+[18:50:50] [Server thread/INFO]: [[38;5;11m⚡[0m] (ModuleManager) -> Disabled manager in 5ms!
+[18:50:50] [Server thread/INFO]: [[38;5;11m⚡[0m] (CommandManager) -> Disabling manager...
+[18:50:50] [Server thread/INFO]: [[38;5;11m⚡[0m] (CommandManager) -> Disabled manager in 3ms!
+[18:50:50] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.9.2-SNAPSHOT
+[18:50:50] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[18:50:50] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[18:50:50] [Server thread/INFO]: [nAntiBot] Disabling nAntiBot v2.0.4
+[18:50:50] [Server thread/INFO]: [nAntiBot] Successful plugin core shutdown (took 0.00s)
+[18:50:50] [Server thread/INFO]: [nAntiBot] Disconnecting from remote server...
+[18:50:52] [Server thread/INFO]: [nLogin] Disabling nLogin v2.0.9
+[18:50:52] [Server thread/INFO]: [nLogin] Successful plugin core shutdown (took 0.00s)
+[18:50:52] [Server thread/INFO]: [Chunky] Disabling Chunky v1.4.40
+[18:50:52] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.9.3
+[18:50:52] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v4.0.13
+[18:50:52] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.24
+[18:50:52] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[18:50:52] [Server thread/INFO]: [LuckPerms] Closing storage...
+[18:50:52] [Server thread/INFO]: [LuckPerms] Goodbye!
+[18:50:52] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.7
+[18:50:52] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.7.0
+[18:50:52] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.7.0
+[18:50:52] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[18:50:52] [Server thread/INFO]: Saving players
+[18:50:52] [Server thread/INFO]: MrGameBlaze lost connection: Server closed
+[18:50:52] [Server thread/INFO]: MrGameBlaze left the game
+[18:50:52] [Server thread/INFO]: nochenoprim lost connection: Server closed
+[18:50:52] [Server thread/INFO]: nochenoprim left the game
+[18:50:52] [Server thread/INFO]: Saving worlds
+[18:50:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[18:50:52] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[18:50:52] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[18:50:52] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[18:50:52] [Server thread/INFO]: [ChunkHolderManager] Saved 33 block chunks, 287 entity chunks, 0 poi chunks in world 'world' in 0.16s
+[18:50:52] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[18:50:52] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[18:50:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[18:50:52] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[18:50:52] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[18:50:52] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[18:50:52] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[18:50:52] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[18:50:52] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[18:50:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[18:50:52] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[18:50:52] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[18:50:52] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[18:50:52] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[18:50:52] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[18:50:52] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[18:50:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:50:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:50:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:50:52] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[18:50:52] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[18:50:52] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[18:50:52] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[18:50:52] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
